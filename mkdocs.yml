@@ -3,30 +3,18 @@ site_name: My Docs
 theme:
   name: material
 
-  palette:
-    # primary: yellow
-    # accent: red
-
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
+  palette: 
 
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: yellow
-      accent: yellow
+    - scheme: default
       toggle:
-        icon: material/brightness-7
+        icon: material/brightness-7 
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: yellow
-      accent: yellow
+    - scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to light mode
+
+
