@@ -1,10 +1,11 @@
 site_name: 轻松润
-
+site_url: https://steed.netlify.app/
 copyright: 版权所有 &copy; 2023 轻松润
+
 
 nav:
   - Introduction: index.md
-  - Blog: blog/index.md
+  - Blog
   - About: 
     - About Subsection: about/sub1/index.md
   - FAQ: faq.md
@@ -47,7 +48,8 @@ theme:
   favicon: Canada-Flag.png
 
   features:
-    - navigation.instant
+    # Navigation.instant cannot be enabled if blog plugin is on
+    # - navigation.instant
     - navigation.tracking
     - navigation.tabs
     # - navigation.tabs.sticky
@@ -66,9 +68,9 @@ theme:
   plugins:
   - search
   - tags
-  - blog
-    - blog/index.md
-      # post_date_format: full
+  - blogging:
+    dirs: 
+      - blog
   - social:
         cards_font: Noto Sans SC
 

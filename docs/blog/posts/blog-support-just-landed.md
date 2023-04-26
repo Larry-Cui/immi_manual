@@ -1,9 +1,8 @@
 ---
-date: 2022-09-12
-authors: [squidfunk]
+date: 2023-04-25
+# authors: [squidfunk]
 description: >
-  Our new blog is built with the brand new built-in blog plugin. You can build
-  a blog alongside your documentation or standalone
+  EE最新抽签结果
 categories:
   - Blog
 links:
