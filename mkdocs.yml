@@ -34,7 +34,63 @@ theme:
 
   language: zh 
 
-  
+  logo: canada-logo.svg
+  favicon: Canada-Flag.png
+
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+
+    - search.highlight
+    - search.share
+
+    - header.autohide
+    - navigation.footer
+
+
+
+  plugins:
+    - social:
+        cards_font: Noto Sans SC
+    
+    - blog:
+      - blog/index.md
+      post_date_format: full
+
+    - tags
+
+
+  extra:
+    social:
+      - icon: fontawesome/brands/mastodon 
+        link: https://fosstodon.org/@squidfunk
+      - icon: fontawesome/solid/paper-plane
+        link: mailto:<email-address>
+
+
+  copyright: Copyright &copy; 2016 - 2020 Martin Donath
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    
 
