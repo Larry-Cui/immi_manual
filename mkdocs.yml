@@ -7,7 +7,12 @@ nav:
     - 前言: index.md
     - 移民政策总体介绍: general/index.md
     - 你该选择哪条路？: general/index.md
-  - 各省详解: 
+  - 联邦项目:
+    - 联邦技术工人类: f1.md
+    - 联邦技术商务类: f2.md
+    - 加拿大经验类: f3.md
+    - 联邦企业家类: f4.md
+  - 省提名项目: 
     - 前言: provinces/index.md
     - BC省: p2.md
     - 阿省: p3.md
