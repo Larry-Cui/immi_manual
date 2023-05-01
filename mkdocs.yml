@@ -14,7 +14,7 @@ nav:
     - 联邦企业家类: f4.md
   - 省提名项目: 
     - 前言: provinces/index.md
-    - BC省: p2.md
+    - BC省: provinces/BC/preface.md
     - 阿省: p3.md
     - 萨省: p4.md
     - 曼省: p5.md
