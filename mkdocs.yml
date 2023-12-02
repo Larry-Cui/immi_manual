@@ -3,44 +3,43 @@ site_url: https://steed.netlify.app/
 copyright: 版权所有 &copy; 2023 轻松润
 
 nav:
-  - 政策综述: 
-    - 前言: index.md
-    - 移民政策总体介绍: general/index.md
-    - 你该选择哪条路？: general/index.md
+  - 政策综述:
+      - 前言: index.md
+      - 移民政策总体介绍: general/index.md
+      - 你该选择哪条路？: general/index.md
   - 联邦项目:
-    - 联邦技术工人类: f1.md
-    - 联邦技术商务类: f2.md
-    - 加拿大经验类: f3.md
-    - 联邦企业家类: f4.md
-  - 省提名项目: 
-    - 前言: provinces/index.md
-    - BC省: provinces/BC/preface.md
-    - 阿省: p3.md
-    - 萨省: p4.md
-    - 曼省: p5.md
-    - 安省: p6.md
-    - 魁北克: p7.md
-    - 新不伦瑞克省: p8.md
-    - 爱德华王子岛: p9.md
-    - 大西洋四省: p10.md
-  - 留学之路: 
-    - Subsection: about/sub1/index4.md
-    - sub2: index6.md
-  - EE打分: 
-    - faq1: faq1.md
-    - faq2: faq2.md
+      - 联邦技术工人类: f1.md
+      - 联邦技术商务类: f2.md
+      - 加拿大经验类: f3.md
+      - 联邦企业家类: f4.md
+  - 省提名项目:
+      - 前言: provinces/index.md
+      - BC省: provinces/BC/preface.md
+      - 阿省: p3.md
+      - 萨省: p4.md
+      - 曼省: p5.md
+      - 安省: p6.md
+      - 魁北克: p7.md
+      - 新不伦瑞克省: p8.md
+      - 爱德华王子岛: p9.md
+      - 大西洋四省: p10.md
+  - 留学之路:
+      - Subsection: about/sub1/index4.md
+      - sub2: index6.md
+  - EE打分:
+      - faq1: faq1.md
+      - faq2: faq2.md
   - 联系我们: contact.md
 
 theme:
   name: material
 
   palette:
-
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       # scheme: slate
       primary: yellow
-      accent: yellow 
+      accent: yellow
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
@@ -49,7 +48,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: yellow
-      accent: yellow 
+      accent: yellow
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -58,12 +57,12 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: yellow
-      accent: yellow 
+      accent: yellow
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
 
-  language: zh 
+  language: zh
 
   logo: canada-logo.svg
   favicon: Canada-Flag.png
@@ -85,24 +84,21 @@ theme:
     - content.code.annotate
     - content.code.copy
 
-
 extra:
   social:
-    - icon: fontawesome/brands/twitter 
+    - icon: fontawesome/brands/twitter
       link: https://github.com/@
-    - icon: fontawesome/brands/facebook 
+    - icon: fontawesome/brands/facebook
       link: https://facebook.com/@
-    - icon: fontawesome/brands/instagram 
+    - icon: fontawesome/brands/instagram
       link: https://instagram.com/@
     - icon: fontawesome/solid/paper-plane
       link: mailto:811@qq.com
   generator: false
 
-
 plugins:
   - search
   - tags
-
 
 markdown_extensions:
   - admonition
@@ -120,30 +116,3 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
